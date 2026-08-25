@@ -16,7 +16,7 @@
 }
 
 .med-spa-serv-container .service-section .content {
-    padding: clamp(1.35rem, 3vw, 2.4rem);
+    /* padding: clamp(1.35rem, 3vw, 2.4rem); */
 }
 
 .med-spa-serv-container .section-preview p,
@@ -26,9 +26,7 @@
     line-height: 1.75;
 }
 
-.med-spa-serv-container .section-details {
-    padding-top: 1.3rem;
-}
+
 
 .med-spa-serv-container .section-details p+p {
     margin-top: 1rem;
@@ -68,9 +66,7 @@
 }
 
 .med-spa-serv-container .women-men-nav {
-    border: 1px solid blue;
     gap: .8rem;
-    /* margin: 1.5rem 0; */
 }
 
 .med-spa-serv-container .women-men-nav a {
