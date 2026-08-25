@@ -1,0 +1,78 @@
+/* responsive-med-spa-serv.css */
+/* Keep the existing floated-media treatment useful on compact screens. */
+@media (min-width: 1401px) {
+    .page-container.med-spa-serv-container {
+            padding-top: 6% !important;
+            margin: 0 2%;
+            width: 90vw;
+        }
+}    
+@media (min-width: 1221px) {
+.section-details .img-wrapper {
+        min-width: 450px !important;
+        border: 1px solid red;
+    }
+}
+@media (max-width: 1220px) {
+    .page-container.med-spa-serv-container {
+            padding-top: 10% !important;
+            width: 90vw;
+            margin: 0 2%;
+        }
+    
+
+}
+@media (max-width: 730px) {
+    .page-container.med-spa-serv-container {
+        /* padding: calc(74px + 1.25rem) 0 4rem; */
+        padding-top: 21% !important;
+        margin: 0 2%;
+        width: 95vw;
+    }
+
+    .med-spa-serv-container .sections-containers {
+        width: min(100% - 1.25rem, var(--service-max-width));
+    }
+
+    .med-spa-serv-container .service-section .section-title {
+        min-height: 58px;
+        padding: 1rem 1.1rem;
+    }
+
+    .med-spa-serv-container .service-section .content {
+        padding: 1.15rem;
+    }
+
+    .med-spa-serv-container .section-preview .img-wrapper.float-right,
+    .med-spa-serv-container .section-preview .img-wrapper.float-left {
+        width: clamp(118px, 36vw, 210px);
+        max-width: 42%;
+        min-height: 0;
+        aspect-ratio: 4 / 3;
+    }
+
+    .med-spa-serv-container .section-preview .img-wrapper.float-right {
+        float: right;
+        margin: .2rem 0 .85rem 1rem;
+    }
+
+    .med-spa-serv-container .section-preview .img-wrapper.float-left {
+        float: left;
+        margin: .2rem 1rem .85rem 0;
+    }
+
+    .med-spa-serv-container .section-preview .img-wrapper video {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .med-spa-serv-container .service-section .section-preview::before {
+        float: right;
+        width: clamp(118px, 36vw, 210px);
+        max-width: 42%;
+        min-height: 0;
+        aspect-ratio: 4 / 3;
+        margin: .2rem 0 .85rem 1rem;
+    }
+}

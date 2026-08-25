@@ -1,0 +1,18 @@
+/* background-colors.css */
+:root {
+    --bg-clr: #ddd;
+    --bg-header: #ddd;
+}
+.main-landing-page {
+    background-color: var(--bg-clr);
+}
+.page-wrapper
+{
+    background-color: var(--bg-clr);
+}
+.mobile-header-nav {
+    background-color: var(--bg-header);
+}
+.page-header {
+    background-color: var(--bg-clr);
+}

@@ -1,0 +1,155 @@
+/* responsivce-home.css */
+
+@media (max-width: 780px) {
+    .section-heading {
+            display: block;
+            width: 100%;
+        }
+    
+        .section-heading>div {
+            width: 100%;
+            min-width: 0;
+        }
+    
+        .section-heading h2 {
+            width: 100%;
+            max-width: 100%;
+            min-width: 0;
+            overflow-wrap: normal;
+            word-break: normal;
+        }
+    
+        .section-heading .eyebrow {
+            width: 100%;
+        }
+           .premium-service-card {
+               min-width: 0;
+               width: 100%;
+               padding: 1.1rem;
+           }
+    
+           .premium-service-card h3 {
+               min-width: 0;
+               max-width: 100%;
+               font-size: clamp(1.15rem, 5vw, 1.55rem);
+               line-height: 1.05;
+    
+               /* Keep individual words intact */
+               overflow-wrap: normal;
+               word-break: normal;
+               hyphens: none;
+           }
+    .hero-content {
+        width: min(100% - 2.25rem, 1140px);
+        padding: 8rem 0 4rem;
+    }
+
+    .premium-hero {
+        /* min-height: 690px; */
+    }
+
+    .premium-hero .hero-scrim {
+        background: linear-gradient(90deg, rgba(48, 37, 39, .67), rgba(62, 44, 45, .24));
+    }
+
+    .premium-hero #bg1 {
+        background-position: 54% center;
+    }
+
+    .premium-hero #bg3 {
+        background-position: 62% center;
+    }
+
+    .home-introduction,
+    .services-section,
+    .physician-section,
+    .consultation-section,
+    .home-footer {
+        width: min(100% - 2.25rem, 1140px);
+    }
+
+    .home-introduction,
+    .physician-section {
+        grid-template-columns: 1fr;
+        /* gap: 2rem; */
+    }
+
+    .premium-service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .premium-service-card {
+        min-height: 250px;
+    }
+
+    .physician-photo {
+        max-width: 260px;
+    }
+
+    .consultation-section {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .home-footer {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .home-footer address {
+        text-align: left;
+    }
+}
+@media (min-width: 531px) {
+    .hero-actions {
+            margin-top: 2%;
+            margin-bottom: 3%;
+    }
+    .hero-copy{
+        margin-top: 2% !important;
+    }
+    .eyebrow{
+        margin-bottom: 1%;
+    }
+}
+@media (max-width: 530px) {
+        .physician-section>.bio-container {
+                display: block !important;
+            }
+    .physician-photo {
+        float: left !important;
+        width: 50% !important;
+        max-width: 50% !important;
+        height: auto !important;
+        aspect-ratio: 4 / 5;
+
+        margin: 0 1rem 0.75rem 0;
+    }
+
+    .physician-photo img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+    .introduction-copy {
+        margin-top: 0 !important;
+    }
+    .hero-content {
+        padding-bottom: 4% !important;
+    }
+
+    .modo {
+        font-size: 1.5rem !important;
+    }
+
+    .hero-copy {
+        margin-top: 5.5% !important;
+    }
+
+    .hero-actions {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+}

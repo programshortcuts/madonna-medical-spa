@@ -1,0 +1,6 @@
+/* position-med-spa-serv.css */
+/* Positioning used only by the injected Medical Spa Services page. */
+.med-spa-serv-container .service-section { position: relative; }
+.med-spa-serv-container .section-preview::after,
+.med-spa-serv-container .section-details::after { content: ""; display: block; clear: both; }
+.med-spa-serv-container .more-info-buttons { clear: both; }

@@ -1,0 +1,16 @@
+:root {
+    --ink: #312d2d;
+    --pine: #4a4141;
+    --sage: #a08080;
+    --mist: #f2eeee;
+    --sand: #d9c8c3;
+    --cream: #fcf9f8;
+    --line: rgba(74, 65, 65, .16);
+}
+.t {color:tomato !important;}
+.r {color:red !important;}
+
+h1 a:visited,
+h1 a{
+    color: var(--color-primary);
+}

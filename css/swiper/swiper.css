@@ -1,0 +1,7 @@
+/* swiper.css */
+.bg-slider,
+.bg-slide {
+    pointer-events: none;
+    z-index: 0;
+}
+
