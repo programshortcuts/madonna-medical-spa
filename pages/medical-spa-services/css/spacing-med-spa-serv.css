@@ -2,6 +2,8 @@
 .med-spa-serv-container {
     /* padding: calc(74px + clamp(2rem, 5vw, 4.5rem)) 0 clamp(3rem, 7vw, 6.5rem); */
     padding-top: 10%;
+    padding-bottom: 20%;
+
 }
 
 .med-spa-serv-container .service-section {
