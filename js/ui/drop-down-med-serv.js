@@ -350,6 +350,24 @@ export function initDropDownMedServ() {
             }
         );
 
+        section.addEventListener(
+            'keydown',
+            (event) => {
+
+                if (
+                    event.target !== section ||
+                    event.key !== 'Enter'
+                ) {
+                    return;
+                }
+
+                event.preventDefault();
+                event.stopPropagation();
+
+                title.click();
+            }
+        );
+
         // ========================================================
         // .more-info-btn
         // ========================================================
