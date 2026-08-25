@@ -38,27 +38,20 @@
     display: block;
     object-fit: cover;
 }
-
-
-
 .med-spa-serv-container .section-preview .float-right {
     float: right;
 }
-
 .med-spa-serv-container .section-preview .float-left {
     float: left;
 }
-
 .med-spa-serv-container .more-info-buttons {
     display: block;
 }
-
 .med-spa-serv-container .service-section .more-info-link,
 .med-spa-serv-container .service-section .more-info-links a {
     display: inline-flex;
     align-items: center;
 }
-
 .med-spa-serv-container .women-men-nav,
 .med-spa-serv-container .women-men-content {
     display: flex;
@@ -67,7 +60,6 @@
 .med-spa-serv-container .women-men-nav {
     justify-content: flex-start;
 }
-
 .med-spa-serv-container .women-men-content .col {
     display: flex;
     flex: 1 1 0;
