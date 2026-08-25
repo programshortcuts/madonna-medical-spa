@@ -5,13 +5,15 @@
     padding-bottom: 20%;
 
 }
-
 .med-spa-serv-container .service-section {
     margin-bottom: 1.15rem;
 }
-
 .med-spa-serv-container .service-section .section-title {
     padding: 1.2rem clamp(1.15rem, 3vw, 2.25rem);
+}
+.med-spa-serv-container .service-section .section-title::after {
+    line-height: 1;
+    margin-left: 1rem;
 }
 
 .med-spa-serv-container .service-section .content {
