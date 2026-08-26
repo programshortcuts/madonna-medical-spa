@@ -81,3 +81,10 @@
 .women-men-nav a {
     display: inline-flex;
 }
+.section-details ul  {
+    max-width: 100px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 2rem;
+}
