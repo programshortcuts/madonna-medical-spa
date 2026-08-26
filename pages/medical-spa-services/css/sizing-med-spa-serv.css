@@ -27,8 +27,9 @@
 }
 .med-spa-serv-container .section-preview .float-right,
 .med-spa-serv-container .section-preview .float-left {
-    width: min(38%, 320px);
-    min-height: 220px;
+    width: min(40%, 390px);
+    min-height: 0;
+    aspect-ratio: 4 / 3;
 }
 .med-spa-serv-container .service-section .img-wrapper img,
 .med-spa-serv-container .service-section .img-wrapper video {

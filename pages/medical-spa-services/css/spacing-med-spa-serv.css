@@ -22,14 +22,14 @@
 .med-spa-serv-container .section-preview p,
 .med-spa-serv-container .section-details p {
     max-width: 73ch;
-    margin: 0 0 1.15rem;
-    line-height: 1.75;
+    margin: 0 0 1rem;
+    line-height: 1.65;
 }
 
 
 
 .med-spa-serv-container .section-details p+p {
-    margin-top: 1rem;
+    margin-top: .75rem;
 }
 
 .med-spa-serv-container .section-details ul {
@@ -43,15 +43,15 @@
 }
 
 .med-spa-serv-container .section-preview .float-right {
-    margin: .2rem 0 1.15rem clamp(1.25rem, 3vw, 2.25rem);
+    margin: .2rem 0 1rem clamp(1.25rem, 3vw, 2.25rem);
 }
 
 .med-spa-serv-container .section-preview .float-left {
-    margin: .2rem clamp(1.25rem, 3vw, 2.25rem) 1.15rem 0;
+    margin: .2rem clamp(1.25rem, 3vw, 2.25rem) 1rem 0;
 }
 
 .med-spa-serv-container .more-info-buttons {
-    margin-top: 1.4rem;
+    margin-top: 1.15rem;
 }
 
 .med-spa-serv-container .service-section .more-info-btn {
@@ -74,4 +74,3 @@
     gap: .75rem;
     padding: .75rem 1rem;
 }
-

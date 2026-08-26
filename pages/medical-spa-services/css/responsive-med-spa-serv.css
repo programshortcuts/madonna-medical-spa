@@ -8,9 +8,8 @@
         }
 }    
 @media (min-width: 1221px) {
-.section-details .img-wrapper {
+    .section-details .img-wrapper {
         min-width: 450px !important;
-        border: 1px solid red;
     }
 }
 @media (max-width: 1220px) {
@@ -21,6 +20,15 @@
         }
     
 
+}
+@media (min-width: 731px) {
+    .page-container.med-spa-serv-container {
+        /* margin: 0 5%; */
+        /* padding: 2%; */
+    }
+    .sections-containers section .content{
+        padding: 5%;
+    }
 }
 @media (max-width: 730px) {
     .page-container.med-spa-serv-container {
