@@ -1,20 +1,23 @@
 /* responsive-med-spa-serv.css */
 /* Keep the existing floated-media treatment useful on compact screens. */
 @media (min-width: 1401px) {
-    .page-container.med-spa-serv-container {
-            padding-top: 6% !important;
-            margin: 0 2%;
-            width: 90vw;
-        }
+    .page-container.med-spa-serv-container {    
+        margin: 0 2%;
+        width: 90vw;
+    }
 }    
 @media (min-width: 1221px) {
+    .page-container.med-spa-serv-container {
+        padding-top: 6% !important;
+        margin: 0 5%;
+    }
     .section-details .img-wrapper {
         min-width: 450px !important;
     }
 }
 @media (max-width: 1220px) {
     .page-container.med-spa-serv-container {
-            padding-top: 10% !important;
+            padding-top: 2% ;
             width: 90vw;
             margin: 0 2%;
         }
@@ -22,17 +25,12 @@
 
 }
 @media (min-width: 731px) {
-    .page-container.med-spa-serv-container {
-        /* margin: 0 5%; */
-        /* padding: 2%; */
-    }
     .sections-containers section .content{
         padding: 5%;
     }
 }
 @media (max-width: 730px) {
     .page-container.med-spa-serv-container {
-        /* padding: calc(74px + 1.25rem) 0 4rem; */
         padding-top: 21% !important;
         margin: 0 2%;
         width: 95vw;
