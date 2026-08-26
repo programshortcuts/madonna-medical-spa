@@ -68,10 +68,16 @@
 }
 .women-men-nav {
     display:  flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
-.women-men-nav > a {
+.women-men-nav .wo-men-col{
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: column;
     flex-basis: 50%;
+    /* justify-content: center; */
+}
+.women-men-nav a {
     display: inline-flex;
-    justify-content: center;
 }
