@@ -17,21 +17,20 @@
 }
 @media (max-width: 1220px) {
     .page-container.med-spa-serv-container {
-            padding-top: 2% ;
-            width: 90vw;
-            margin: 0 2%;
-        }
-    
-
+        padding-top: 2% ;
+        width: 90vw;
+        margin: 0 2%;
+    }
 }
 @media (min-width: 731px) {
+    
     .sections-containers section .content{
         padding: 5%;
     }
 }
 @media (max-width: 730px) {
     .page-container.med-spa-serv-container {
-        padding-top: 21% !important;
+        padding-top: 15% !important;
         margin: 0 2%;
         width: 95vw;
     }
