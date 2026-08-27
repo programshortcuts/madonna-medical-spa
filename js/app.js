@@ -1,7 +1,6 @@
 // app.js
 import { initAllVideos } from "./video/video-controls.js";
 import { initFocusScroll } from "./nav/focus-scroll.js";
-import { initChangeStyles } from "./ui/change-styles.js";
 import { initInjectContentListeners } from "./core/inject-content.js";
 import { initToggleNav } from "./ui/toggle-nav.js";
 import { initKeydboardNav } from "./nav/keyboard-nav.js";
@@ -36,6 +35,5 @@ function setupGlobalListeners(){
     initDropDown()
     // initDropDownMedServ()
     // initFilterSortItems()
-    initChangeStyles()
 }
 setupGlobalListeners()
