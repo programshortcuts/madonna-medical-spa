@@ -298,13 +298,15 @@ export function initDropDownMedServ() {
 
         const initialContentVisible =
             content.classList.contains('show');
+        const initialDetailsVisible =
+            details?.classList.contains('show') ?? false;
 
         setContentVisible(
             initialContentVisible
         );
 
         // Details start hidden.
-        setDetailsVisible(false);
+        setDetailsVisible(initialDetailsVisible);
 
         // ========================================================
         // .section-title

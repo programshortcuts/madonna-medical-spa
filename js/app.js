@@ -9,10 +9,8 @@ import { initDropDown } from "./ui/drop-down.js";
 // import { initMedicalSpaAnimation } from "./visuals/animation.js";
 
 let animationCleanup = null;
-
 addEventListener('DOMContentLoaded', initMain)
 function initMain(){
-
     const pageWrapper = document.querySelector('.page-wrapper')
     initToggleNav()
     initKeydboardNav({
