@@ -14,12 +14,12 @@
     text-align: left;
 }
 
-.med-spa-serv-container .service-section .section-title::after {
+.med-spa-serv-container .service-section .section-title.drop-down::after {
     content: "+";
     flex: 0 0 auto;
 }
 
-.med-spa-serv-container .service-section .section-title[aria-expanded="true"]::after {
+.med-spa-serv-container .service-section .section-title.drop-down[aria-expanded="true"]::after {
     content: "−";
 }
 

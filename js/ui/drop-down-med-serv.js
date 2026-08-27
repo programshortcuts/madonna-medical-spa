@@ -26,7 +26,7 @@ export function initDropDownMedServ() {
         // --------------------------------------------------------
 
         const title = section.querySelector(
-            ':scope > .section-title'
+            ':scope > .section-title.drop-down'
         );
 
         const content = section.querySelector(

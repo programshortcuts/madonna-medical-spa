@@ -10,7 +10,7 @@
 .med-spa-serv-container .service-section .section-title {
     padding: 1.2rem clamp(1.15rem, 3vw, 2.25rem);
 }
-.med-spa-serv-container .service-section .section-title::after {
+.med-spa-serv-container .service-section .section-title.drop-down::after {
     line-height: 1;
     margin-left: 1rem;
 }

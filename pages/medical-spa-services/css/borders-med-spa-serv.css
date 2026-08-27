@@ -9,7 +9,7 @@
     border-bottom: 1px solid transparent;
 }
 
-.med-spa-serv-container .service-section .section-title[aria-expanded="true"] {
+.med-spa-serv-container .service-section .section-title.drop-down[aria-expanded="true"] {
     border-bottom-color: var(--service-line);
 }
 
