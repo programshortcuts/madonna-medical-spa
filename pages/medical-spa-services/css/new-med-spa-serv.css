@@ -1,5 +1,5 @@
 /* new-med-spa-serv.css */
-.botox-filler-card-img {
-    background-position-y: 40% !important;
-    border: 1px solid blue;
+.med-spa-serv-container .botox-filler-card-img {
+    position: relative;
+    top: 20px;
 }
