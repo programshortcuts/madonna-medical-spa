@@ -1,6 +1,6 @@
 /* new-med-spa-serv.css */
 .med-spa-serv-container .botox-filler-card-img {
     position: relative;
-    top: 20px;
-    object-position: center 20%;
+    /* top: 20px; */
+    object-position: center 15%;
 }
