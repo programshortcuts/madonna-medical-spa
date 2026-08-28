@@ -38,10 +38,10 @@
     display: block;
     object-fit: cover;
 }
-.med-spa-serv-container .section-preview .float-right {
+.med-spa-serv-container .float-right {
     float: right;
 }
-.med-spa-serv-container .section-preview .float-left {
+.med-spa-serv-container .float-left {
     float: left;
 }
 .med-spa-serv-container .more-info-buttons {
