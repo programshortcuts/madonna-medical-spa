@@ -32,6 +32,8 @@ function bindVideoControls(section) {
     section.tabIndex = 0;
     getSectionVideos(section).forEach(bindVideo);
 
+    bindSectionDetailsPlayPause(section);
+
     // Keyboard events remain scoped to their service section. The focused
     // element determines the video rather than the section's first video.
     if (section.dataset.videoKeyboardBound === 'true') return;
@@ -68,6 +70,68 @@ function bindVideoControls(section) {
     });
 }
 
+function bindSectionDetailsPlayPause(section) {
+    const details = section.querySelector('.section-details');
+
+    if (!details || details.dataset.videoPlayPauseBound === 'true') {
+        return;
+    }
+
+    details.dataset.videoPlayPauseBound = 'true';
+
+    const getDetailsVideo = () => {
+        const videos = getSectionVideos(section);
+
+        // Preserve the existing single-video behavior.
+        if (videos.length === 1) {
+            return videos[0];
+        }
+
+        // If this section has multiple videos, use the existing
+        // data-video-target relationship when available.
+        const targetId = details.dataset.videoTarget;
+
+        if (targetId) {
+            return videos.find(
+                (video) => video.dataset.videoId === targetId
+            ) || null;
+        }
+
+        return null;
+    };
+
+    details.addEventListener('click', (event) => {
+        // Clicking More Info should continue doing exactly what it
+        // currently does and should NOT toggle the video.
+        if (event.target.closest('.more-info-link')) {
+            return;
+        }
+
+        const video = getDetailsVideo();
+
+        if (video) {
+            togglePlay(video);
+        }
+    });
+
+    details.addEventListener('keydown', (event) => {
+        // Do not interfere with the More Info link.
+        if (event.target.closest('.more-info-link')) {
+            return;
+        }
+
+        console.log('here')
+        if (event.key === 'Enter' || event.code === 'Space') {
+            event.preventDefault();
+
+            const video = getDetailsVideo();
+
+            if (video) {
+                togglePlay(video);
+            }
+        }
+    });
+}
 function getSectionVideos(section) {
     // A nested service section owns its own videos.
     return [...section.querySelectorAll('video')].filter(
