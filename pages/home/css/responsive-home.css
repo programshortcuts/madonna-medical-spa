@@ -1,5 +1,15 @@
 /* responsivce-home.css */
 
+@media (min-width: 931px) {
+    
+    .reviews-swiper{
+        /* position: absolute !important; */
+        /* top: 50%; */
+        /* top: 50%; */
+
+    }
+
+}
 @media (max-width: 780px) {
     .section-heading {
             display: block;
