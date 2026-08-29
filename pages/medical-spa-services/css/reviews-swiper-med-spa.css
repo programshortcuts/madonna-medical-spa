@@ -3,7 +3,7 @@
    REVIEWS / TESTIMONIALS
    ========================================= */
 
-.reviews-swiper {
+.med-spa-serv-container .reviews-swiper {
     width: 100%;
     max-width: 850px;
     margin: 2rem auto;
@@ -12,11 +12,11 @@
     overflow: hidden;
 }
 
-.reviews-swiper .swiper-wrapper {
+.med-spa-serv-container .reviews-swiper .swiper-wrapper {
     align-items: stretch;
 }
 
-.reviews-swiper .swiper-slide {
+.med-spa-serv-container .reviews-swiper .swiper-slide {
     box-sizing: border-box;
     height: auto;
 
@@ -40,7 +40,7 @@
 }
 
 /* Review text */
-.reviews-swiper .swiper-slide>p {
+.med-spa-serv-container .reviews-swiper .swiper-slide>p {
     margin: 0 0 1.25rem;
     padding: 0;
 
@@ -52,7 +52,7 @@
 }
 
 /* Reviewer / stars row */
-.reviews-swiper .swiper-slide>div {
+.med-spa-serv-container .reviews-swiper .swiper-slide>div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,13 +65,13 @@
 }
 
 /* Name */
-.reviews-swiper .swiper-slide>div span:first-child {
+.med-spa-serv-container .reviews-swiper .swiper-slide>div span:first-child {
     font-weight: 600;
     font-size: 0.95rem;
 }
 
 /* Stars */
-.reviews-swiper .swiper-slide>div span:last-child {
+.med-spa-serv-container .reviews-swiper .swiper-slide>div span:last-child {
     font-size: 1rem;
     letter-spacing: 0.08em;
     white-space: nowrap;
@@ -84,27 +84,27 @@
 
 @media (max-width: 600px) {
 
-    .reviews-swiper {
+    .med-spa-serv-container .reviews-swiper {
         width: calc(100% - 1rem);
         margin: 1.5rem auto;
         padding: 0.5rem 0.25rem 1rem;
     }
 
-    .reviews-swiper .swiper-slide {
+    .med-spa-serv-container .reviews-swiper .swiper-slide {
         padding: 1.15rem 1.15rem;
         border-radius: 15px;
     }
 
-    .reviews-swiper .swiper-slide>p {
+    .med-spa-serv-container .reviews-swiper .swiper-slide>p {
         font-size: 0.95rem;
         line-height: 1.5;
     }
 
-    .reviews-swiper .swiper-slide>div {
+    .med-spa-serv-container .reviews-swiper .swiper-slide>div {
         gap: 0.5rem;
     }
 
-    .reviews-swiper .swiper-slide>div span:last-child {
+    .med-spa-serv-container .reviews-swiper .swiper-slide>div span:last-child {
         font-size: 0.9rem;
     }
 }
@@ -116,16 +116,16 @@
 
 @media (max-width: 380px) {
 
-    .reviews-swiper .swiper-slide {
+    .med-spa-serv-container .reviews-swiper .swiper-slide {
         padding: 1rem;
     }
 
-    .reviews-swiper .swiper-slide>p {
+    .med-spa-serv-container .reviews-swiper .swiper-slide>p {
         font-size: 0.9rem;
         line-height: 1.45;
     }
 
-    .reviews-swiper .swiper-slide>div span:last-child {
+    .med-spa-serv-container .reviews-swiper .swiper-slide>div span:last-child {
         font-size: 0.8rem;
         letter-spacing: 0.04em;
     }
