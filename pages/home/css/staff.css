@@ -52,6 +52,10 @@
 .staff {
     display: flex ;
 }
+.staff .info{
+    padding-left: 2.5%;
+    margin-top: 5%;
+}
 .staff img {
     max-width: 250px;
     max-height: 200px;

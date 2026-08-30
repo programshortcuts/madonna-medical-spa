@@ -26,14 +26,14 @@ export function initReviewsSwiper() {
 
         loop: true,
 
-        speed: 500,
+        speed: 1000,
 
         grabCursor: true,
         allowTouchMove: true,
         threshold: 10,
 
         autoplay: {
-            delay: 3500,
+            delay: 2200,
             disableOnInteraction: false
         }
     });
