@@ -366,12 +366,7 @@
 /* =========================================================
    432px+
    ========================================================= */
-@media screen and (min-width: 432px) {
-    .page-wrapper.expand>.mobile-header-nav {
-        padding-top: 2%;
-        height: 35vh;
-    }
-}
+
 /* =========================================================
    900px+
    ========================================================= */
@@ -393,6 +388,13 @@
    ========================================================= */
 @media screen and (min-width: 933px) {
     .page-wrapper.expand>.mobile-header-nav {
+        top: 8%;
+        height: 50vh !important;
+    }
+}
+@media screen and (max-width: 932px) {
+    .page-wrapper.expand>.mobile-header-nav {
+        top: 5%;
         height: 50vh !important;
     }
 }
