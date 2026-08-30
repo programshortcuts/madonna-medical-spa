@@ -48,6 +48,7 @@
 
 .med-spa-serv-container .section-preview .float-left {
     margin: .2rem clamp(1.25rem, 3vw, 2.25rem) 1rem 0;
+    margin-right: 2.5%;
 }
 
 .med-spa-serv-container .more-info-buttons {
