@@ -355,7 +355,7 @@
 */
 @keyframes dropIn {
     from {
-        opacity: 0;
+        opacity: 1;
         transform: translateY(-8px);
     }
     to {
@@ -370,19 +370,7 @@
 /* =========================================================
    900px+
    ========================================================= */
-@media screen and (min-width: 900px) {
-    .page-wrapper.expand>.mobile-header-nav {
-        height: 50vh !important;
-    }
-    .page-wrapper.expand .mobile-header-nav>ul>li>a {
-        padding: .7rem .85rem;
-        font-size: .66rem;
-    }
-    .page-wrapper.expand .mobile-header-nav>ul>li#medSpaServUL>ul>li>a {
-        font-size: .65rem;
-        min-height: 40px;
-    }
-}
+
 /* =========================================================
    933px+
    ========================================================= */
@@ -396,6 +384,21 @@
     .page-wrapper.expand>.mobile-header-nav {
         top: 5%;
         height: 50vh !important;
+    }
+}
+@media screen and (min-width: 900px) {
+    .page-wrapper.expand>.mobile-header-nav {
+        height: 50vh !important;
+    }
+
+    .page-wrapper.expand .mobile-header-nav>ul>li>a {
+        padding: .7rem .85rem;
+        font-size: .66rem;
+    }
+
+    .page-wrapper.expand .mobile-header-nav>ul>li#medSpaServUL>ul>li>a {
+        font-size: .65rem;
+        min-height: 40px;
     }
 }
 /* =========================================================

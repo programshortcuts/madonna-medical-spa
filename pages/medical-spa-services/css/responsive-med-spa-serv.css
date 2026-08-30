@@ -6,16 +6,25 @@
         width: 90vw;
     }
 }    
-@media (min-width: 1221px) {
+@media (min-width: 1210px) {
     .page-container.med-spa-serv-container {
         padding-top: 6% !important;
         margin: 0 5%;
     }
+    
     .section-details .img-wrapper {
         min-width: 450px !important;
     }
+    .sections-containers section .content p {
+        font-size: 120% !important;
+    }
+    #longevityMedicine .sections-containers .content > .section-preview p:nth-of-type(1) {
+        font-size: 120% !important;
+        padding-top: 20%;
+        background-color: blue;
+    }
 }
-@media (max-width: 1220px) {
+@media (max-width: 1209px) {
     .page-container.med-spa-serv-container {
         padding-top: 12% ;
         width: 90vw;
