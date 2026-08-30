@@ -23,11 +23,11 @@
 
     padding: .65rem 2rem;
 
-    background: rgba(250, 248, 244, .96);
+    /* background: rgba(250, 248, 244, .96); */
 
-    border-bottom: 1px solid rgba(24, 58, 55, .1);
+    /* border-bottom: 1px solid rgba(24, 58, 55, .1); */
 
-    box-shadow: 0 3px 18px rgba(26, 44, 38, .05);
+    /* box-shadow: 0 3px 18px rgba(26, 44, 38, .05); */
 
     backdrop-filter: blur(10px);
 
@@ -326,7 +326,6 @@
         width: 100%;
         max-width: 100%;
         min-width: 180px;
-        /* border: 1px solid blue; */
         margin: 0;
 
         line-height: 1;
@@ -363,7 +362,6 @@
         flex: 0 1 auto;
         width: auto;
         max-width: 115px;
-        /* border: 1px solid blue; */
         min-width: 0;
         padding: 0;
         margin: 0;
