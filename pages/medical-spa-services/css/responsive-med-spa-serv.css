@@ -23,9 +23,19 @@
     }
 }
 @media (min-width: 967px) {
+    #bioHormoneReplacement>.content>.section-preview p:nth-of-type(2) {
+        padding: 2.5%;
+        line-height: 1.8;
+    }
+    #bioHormoneReplacement>.content #bloodDrawImgContainer{
+        margin-top: -5%;
+
+    }
     .sections-containers section .content p {
         font-size: 110%;
+        
     }
+    
 
 }
 @media (min-width: 731px) {

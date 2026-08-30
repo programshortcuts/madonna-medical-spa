@@ -8,14 +8,15 @@
             aria-expanded="false" aria-controls="menu-id">
                 <span class="title-text"> Longevity / Functional  Medicine </span>
             </button>
-            <div class="content show">
+            <div class="content ">
                 <div  class="section-preview">
                     <!-- <div tabindex="0" data-nav-target="long-med-spa-serv-img" class="img-wrapper float-right">
                         <img class="service-img" src="pages/medical-spa-services/media/longevity-func-slide.png" alt="">
                     </div> -->
                     <div class="img-wrapper float-right">
-                        <video data-video-id="longevity-video" preload="metadata" class="service-video" loop controls playsinline
-                            poster="pages/medical-spa-services/media/longevity-med/"
+                        <video data-video-id="longevity-video" preload="metadata" 
+                        class="service-video vid-fix" loop controls playsinline
+                            poster="pages/medical-spa-services/media/longevity-med/imgs/longevity-func-slide.png"
                             src="pages/medical-spa-services/services/longevity-med/videos/long-med-trim.mp4">
                         </video>
                     </div>
@@ -24,7 +25,7 @@
                          We strive to optimize and improve how patients feel, function, and age over time.
                     </p>
                     <div  class="img-wrapper float-left">
-                        <img class="service-img" src="pages/medical-spa-services/services/longevity-med/media/funct-med.png" alt="">
+                        <img class="service-img" src="pages/medical-spa-services/services/longevity-med/imgs/funct-med.png" alt="">
                     </div>
                     <p data-nav-target="functional-med-span" data-video-target="functional-medicine-video" tabindex="0">
                         &emsp; <span id="FunctionalMedicineBold">Functional&nbsp;Medicine</span> is a personalized, science-based approach to healthcare that focuses on identifying 
@@ -45,51 +46,15 @@
                     </p>
                     <ul>
                         <!-- <li><img src="pages/medical-spa-services/services/longevity-med/media/dna-tron.png" alt=""></li> -->
-                         <li><img id="dnaImg" src="pages/medical-spa-services/services/longevity-med/media/dna-tron-noBG.png" alt="dna-img"></li>
-                        <li><img src="pages/medical-spa-services/services/longevity-med/media/exercise-tron-trans.png" alt=""></li>
-                        <li><img src="pages/medical-spa-services/services/longevity-med/media/nutrition-tron.png" alt=""></li>
+                         <li><img id="dnaImg" src="pages/medical-spa-services/services/longevity-med/imgs/dna-tron-noBG.png" alt="dna-img"></li>
+                        <li><img src="pages/medical-spa-services/services/longevity-med/imgs/exercise-tron-trans.png" alt=""></li>
+                        <li><img src="pages/medical-spa-services/services/longevity-med/imgs/nutrition-tron.png" alt=""></li>
                     </ul>
                     <p data-nav-target="create-individualized">
                          create individualized treatment plans designed to restore balance, 
                         optimize wellness, and support long-term health.
                     </p>
-                    <div tabindex="0" data-nav-target="reviews-swiper" class="swiper reviews-swiper ">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <p>
-                                    Love Dr Madonna, I finally feel like myself since getting my hormones straightened out! …
-                                </p>
-                                <div>
-                                    <span>Teri</span>
-                                    <span>★★★★★</span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <p>I had no energy, no motivation, fatigued constantly. When I received hormone therapy everything changed!
-                                </p>
-                                <div>
-                                    <span>Jamie</span>
-                                    <span>★★★★★</span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <p>Connect Api and we don't need permission
-                                </p>
-                                <div>
-                                    <span>PERson</span>
-                                    <span>★★★★★</span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <p>ADD MORE , there are good ones
-                                </p>
-                                <div>
-                                    <span>PERson</span>
-                                    <span>★★★★★</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <p>
                         Dr. Tomani and the entire staff work by combining advanced medical therapies 
                         with personalized treatment plans. We help patients maintain their health and
@@ -109,7 +74,7 @@
                 <span class="title-text">Bio-identical Hormone Replacement</span>
                 <!-- <img src="imgs/biote.webp" alt=""> -->
             </button>
-            <div class="content ">
+            <div class="content show">
                 <div tabindex="0" class="section-preview">
                     <p>
                         Hormones are the signals our bodies send
@@ -123,7 +88,7 @@
                     </div>
                     <p>
                         With less signals, our organs slow down, along with our strength, endurance, metabolism, and overall well being,
-                        &emsp;We work with each of our patients on an ongoing basis to analyze symptoms and lab results
+                        We work with each of our patients on an ongoing basis to analyze symptoms and lab results
                         using a specially designed dosing algorithm to develop a unique treatment plan for each individual.
                     </p>
                     
@@ -157,10 +122,10 @@
                         </div>
                     </p>
                 </div>
-                <div class="section-details ">
+                <div class="section-details show">
                     
                     <h4  tabindex="0" data-nav-target="how-it-works-bio-identical-hormone">How it works? This is what we do,</h4>
-                    <div  class="img-wrapper float-right">
+                    <div id="bloodDrawImgContainer"  class="img-wrapper float-right">
                         <img  src="pages/medical-spa-services/services/bio-hormone-replace/imgs/blood-draw.png" alt="">
                     </div>
                     <p>
@@ -202,7 +167,7 @@
             <div class="content ">
                 <div tabindex="0" class="section-preview">
                     <div tabindex="0" data-nav-target="long-med-spa-serv-img" class="img-wrapper float-right ">
-                        <img class="service-img botox-filler-card-img" src="pages/medical-spa-services/services/botox/media/botox-card.png" alt="">
+                        <img class="service-img img-fix" src="pages/medical-spa-services/services/botox/media/botox-card.png" alt="">
                     </div>
                     <p data-nav-target="with-over-decades">
                         With over decades of experience, we have helped thousands achieve the look they wish to have.
@@ -218,7 +183,7 @@
                         <!-- <button>bookings</button> -->
                     </div>
                 </div>
-                <div tabindex="0" class="section-details ">    
+                <div tabindex="0" class="section-details  ">    
                     
                     <div tabindex="0" id="botoxImg" data-nav-target="botox-img" class="img-wrapper float-left">
                         <img  src="pages/medical-spa-services/services/botox/media/botox-img.png" alt="">
