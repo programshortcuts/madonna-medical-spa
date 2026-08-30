@@ -16,13 +16,13 @@
 }
 
 .med-spa-serv-container .service-section .content {
-    /* padding: clamp(1.35rem, 3vw, 2.4rem); */
+    padding: clamp(1.35rem, 3vw, 2.4rem);
 }
 
 .med-spa-serv-container .section-preview p,
 .med-spa-serv-container .section-details p {
     max-width: 73ch;
-    margin: 0 0 1rem;
+    /* margin: 0 0 1rem; */
     line-height: 1.65;
 }
 
