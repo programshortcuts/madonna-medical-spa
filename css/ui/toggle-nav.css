@@ -666,7 +666,7 @@
 @media screen and (max-width: 431px) {
 
     .page-wrapper.expand>.mobile-header-nav {
-
+        top: 5%;
         width: 100vw;
 
         left: 0;
