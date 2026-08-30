@@ -25,10 +25,12 @@
 @media (min-width: 967px) {
     #bioHormoneReplacement>.content>.section-preview p:nth-of-type(2) {
         padding: 2.5%;
-        line-height: 1.8;
+        line-height: 2.2;
+        padding-right: 8%;
     }
     #bioHormoneReplacement>.content #bloodDrawImgContainer{
         margin-top: -5%;
+        margin-left: 2%;
 
     }
     .sections-containers section .content p {

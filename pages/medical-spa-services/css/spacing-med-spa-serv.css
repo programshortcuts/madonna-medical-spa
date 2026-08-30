@@ -1,4 +1,9 @@
 /* spacing-med-spa-serv.css */
+.med-spa-serv-container .section-details h4{  
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+
 .med-spa-serv-container {
     /* padding: calc(74px + clamp(2rem, 5vw, 4.5rem)) 0 clamp(3rem, 7vw, 6.5rem); */
     padding-top: 10%;

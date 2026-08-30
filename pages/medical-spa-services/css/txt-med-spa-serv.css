@@ -1,4 +1,8 @@
 /*txt-med-spa-serv.css  */
+.med-spa-serv-container .section-details h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
 .med-spa-serv-container .service-section .section-title.drop-down::after {
     font-size: 2rem;
     font-weight: 400;
