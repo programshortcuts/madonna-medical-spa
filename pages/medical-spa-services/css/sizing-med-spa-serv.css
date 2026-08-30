@@ -1,4 +1,7 @@
 /* sizing-med-spa-serv.css */
+#dnaImg{
+    max-height: 100px;
+}
 .med-spa-serv-container {
     width: 100%;
 }

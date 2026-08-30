@@ -1,6 +1,7 @@
 /* main.css */
+@import url('./components/new-review-swiper.css');
 /* @import url('./components/reviews-swiper.css'); */
-@import url('./components/home-reviews-swiper.css');
+/* @import url('./components/home-reviews-swiper.css'); */
 /* @import url('../pages/medical-spa-services/css/reviews-swiper-med-spa.css');  */
 /* @import url('../pages/home/css/reviews-swiper-home.css');  */
 
