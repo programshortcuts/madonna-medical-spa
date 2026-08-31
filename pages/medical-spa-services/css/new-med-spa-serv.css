@@ -2,7 +2,8 @@
 .med-spa-serv-container .section-preview .img-wrapper:has(.img-fix),
 .med-spa-serv-container .section-preview .img-wrapper:has(.vid-fix) {
     aspect-ratio: auto;
-    height: auto;
+    /* height: auto; */
+
 }
 
 .med-spa-serv-container .section-preview .img-wrapper .img-fix,
