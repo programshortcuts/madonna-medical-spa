@@ -79,6 +79,17 @@
     display: inline;
     /* border: 1px solid blue; */
 }
-.injection-imgs  {
-    border: 1px solid blue;
+.med-spa-serv-container .section-details > ul.injection-imgs {
+    padding: 0;
+    margin-left: 10%;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}   
+.med-spa-serv-container .section-details li {
+    margin-left: 20%;
 }
+
+
