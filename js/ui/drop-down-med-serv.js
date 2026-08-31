@@ -2,21 +2,15 @@
 // Medical Spa Services expandable sections.
 // ------------------------------------------------------------
 export function initDropDownMedServ() {
-    const container = document.querySelector(
-        '.page-container.med-spa-serv-container'
-    );
+    const container = document.querySelector('.page-container.med-spa-serv-container');
     if (!container) {
         return;
     }
-    const sections = container.querySelectorAll(
-        '.service-section'
-    );
+    const sections = container.querySelectorAll('.service-section');
     sections.forEach((section) => {
-
         // --------------------------------------------------------
         // Prevent duplicate initialization
         // --------------------------------------------------------
-
         if (section.dataset.sectionToggleReady === 'true') {
             return;
         }
@@ -145,14 +139,18 @@ export function initDropDownMedServ() {
                 !visible
             );
 
-            // More-info button is visible when details are hidden.
+            // More-info buttons:
+            // .our-programs-btn is always left alone.
+            // All other buttons keep the existing behavior.
             moreInfoButtons.forEach((button) => {
 
-                button.classList.toggle(
-                    'hide',
-                    visible
-                );
+                if (button.classList.contains('our-programs-btn')) {
+                    return;
+                }
 
+                button.classList.toggle(
+                    'hide'
+                );
             });
         };
 

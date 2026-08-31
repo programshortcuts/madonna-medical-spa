@@ -46,6 +46,7 @@
 .med-spa-serv-container .more-info-buttons {
     margin-top: 1.15rem;
 }
+.med-spa-serv-container .service-section .our-programs-btn,
 .med-spa-serv-container .service-section .more-info-btn {
     min-height: 44px;
     padding: .72rem 1rem;
