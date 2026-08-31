@@ -134,21 +134,27 @@ export function initDropDownMedServ() {
         return;
     }
 
+    // Show/hide the details section
     details.classList.toggle(
         'hide',
         !visible
     );
 
+    // Handle the buttons
     moreInfoButtons.forEach((button) => {
 
-        // OUR PROGRAMS BUTTON IS NEVER HIDDEN
+        // .our-programs-btn NEVER hides
         if (button.classList.contains('our-programs-btn')) {
             button.classList.remove('hide');
             return;
         }
 
-        // All other buttons behave normally
-        button.classList.toggle('hide');
+        // Every other .more-info-btn hides when
+        // details are visible and returns when details hide.
+        button.classList.toggle(
+            'hide',
+            visible
+        );
     });
 };
 
