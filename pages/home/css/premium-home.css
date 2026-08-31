@@ -172,15 +172,15 @@
 }
 
 .card-hormones {
-    background-image: url('../../../imgs/ai-imgs/bio-hormone-header-wide.png');
+    background-image: url('../../../pages/home/service-slides/bio-hormone-header-wide.png');
 }
 
 .card-peptides {
-    background-image: url('../../../imgs/ai-imgs/peptide-header-wide.png');
+    background-image: url('../../../pages/home/service-slides/peptide-header-wide.png');
 }
 
 .card-glp {
-    background-image: url('../../../imgs/ai-imgs/glp-1-serv-header-wide.png');
+    background-image: url('../../../pages/home/service-slides/glp-1-serv-header-wide.png');
 }
 
 .card-botox{
