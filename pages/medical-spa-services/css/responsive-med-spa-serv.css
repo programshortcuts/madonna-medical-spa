@@ -132,5 +132,9 @@
         min-width: 300px !important;
         
     }
+    .injection-imgs {
+        /* margin-left: 25%; */
+        border: 1px solid blue
+    }
             
 }
