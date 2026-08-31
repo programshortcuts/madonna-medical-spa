@@ -37,8 +37,8 @@
     text-decoration: none;
 }
 
-.med-spa-serv-container #LongevityMedicineBold,
-.med-spa-serv-container #functionalMedicineBold {
+
+.med-spa-serv-container .bold {
     font-weight: 700;
 }
 

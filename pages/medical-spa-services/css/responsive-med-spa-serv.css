@@ -124,8 +124,8 @@
         padding: 0 1%;
         padding-top: 3%;
     }
-    #longevityMedicine [data-nav-target="long-med-spa-serv-img"]{
-        min-height: 409px;
+    .img-wrap-9-16{
+        min-height: 409px !important;
     }
             
 }
