@@ -12,8 +12,10 @@
         margin: 0 5%;
     }
     
-    .section-details .img-wrapper {
-        min-width: 450px !important;
+    .med-spa-serv-container .section-details .img-wrapper.float-left,
+    .med-spa-serv-container .section-details .img-wrapper.float-right {
+        width: min(32%, 360px);
+        min-width: 0 !important;
     }
     .sections-containers section .content p {
         font-size: 120% !important;

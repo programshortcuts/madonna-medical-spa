@@ -81,17 +81,18 @@
 .women-men-nav a {
     display: inline-flex;
 }
-.section-details ul  {
-    max-width: 100px;
+.med-spa-serv-container .section-details ul:has(> li > img) {
     display: flex;
+    width: fit-content;
+    max-width: 100%;
     list-style: none;
     justify-content: space-around;
     gap: 2rem;
 }
 .our-treatment-plans-list{
-    /* max-width: 100px; */
-    border: 1px solid blue;
+    max-width: none;
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: space-around;
     gap: 2rem;

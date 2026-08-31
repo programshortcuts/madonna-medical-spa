@@ -7,7 +7,7 @@
     width: 100%;
 }
 .med-spa-serv-container .sections-containers {
-    width: min(var(--service-max-width), calc(100% - 2rem));
+    width: min(1440px, calc(100% - 2rem));
 }
 .med-spa-serv-container .service-section .section-title {
     width: 100%;

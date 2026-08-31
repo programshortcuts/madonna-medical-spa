@@ -88,8 +88,8 @@
     margin-top: 1%;
     margin-bottom: 0%;
 }   
-.med-spa-serv-container .section-details li {
-    margin-left: 20%;
+.med-spa-serv-container .section-details > ul.injection-imgs > li,
+.med-spa-serv-container .section-details > ul.our-treatment-plans-list > li {
+    margin-left: 0;
 }
-
 
