@@ -592,7 +592,7 @@ export async function injectPage(
         {
             ALLOWED_TAGS: [
                 "video",
-
+                "poster",
                 "form",
                 "input",
                 "textarea",
