@@ -44,3 +44,6 @@
     max-width: 100px;
     max-height: 70px;
 }
+.injection-imgs img {
+    min-height: 100px;
+}
