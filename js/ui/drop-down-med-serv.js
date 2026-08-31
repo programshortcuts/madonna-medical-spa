@@ -130,29 +130,27 @@ export function initDropDownMedServ() {
 
         const setDetailsVisible = (visible) => {
 
-            if (!details) {
-                return;
-            }
+    if (!details) {
+        return;
+    }
 
-            details.classList.toggle(
-                'hide',
-                !visible
-            );
+    details.classList.toggle(
+        'hide',
+        !visible
+    );
 
-            // More-info buttons:
-            // .our-programs-btn is always left alone.
-            // All other buttons keep the existing behavior.
-            moreInfoButtons.forEach((button) => {
+    moreInfoButtons.forEach((button) => {
 
-                if (button.classList.contains('our-programs-btn')) {
-                    return;
-                }
+        // OUR PROGRAMS BUTTON IS NEVER HIDDEN
+        if (button.classList.contains('our-programs-btn')) {
+            button.classList.remove('hide');
+            return;
+        }
 
-                button.classList.toggle(
-                    'hide'
-                );
-            });
-        };
+        // All other buttons behave normally
+        button.classList.toggle('hide');
+    });
+};
 
         // --------------------------------------------------------
         // CLOSE OTHER SECTIONS
