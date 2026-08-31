@@ -88,3 +88,11 @@
     justify-content: space-around;
     gap: 2rem;
 }
+.our-treatment-plans-list{
+    /* max-width: 100px; */
+    border: 1px solid blue;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 2rem;
+}
