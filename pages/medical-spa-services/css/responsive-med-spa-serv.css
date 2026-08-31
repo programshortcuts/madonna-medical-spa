@@ -128,5 +128,9 @@
         min-height: 409px !important;
         
     }
+    .img-wrap-16-9{
+        min-width: 300px !important;
+        
+    }
             
 }

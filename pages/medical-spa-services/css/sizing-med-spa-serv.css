@@ -40,10 +40,15 @@
     width: 100%;
     height: 100%;
 }
+
 .section-details ul li img{
     max-width: 100px;
     max-height: 70px;
 }
 .injection-imgs img {
     min-height: 100px;
+}
+
+.img-wrapper-16-9{
+    
 }
